@@ -1,0 +1,59 @@
+html,
+body {
+  /* Ensure full height and prevent horizontal scroll */
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+body {
+  /* Force vertical scroll to appear */
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  display: flow-root;
+}
+
+body > #__next {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Customize the scrollbar */
+::-webkit-scrollbar {
+  width: 3px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Make track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffeeee; /* Style the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  outline: none; /* Remove outline */
+}
+
+/* Ensure smooth scrolling */
+* {
+  scroll-behavior: smooth;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.BaseStyles__Base-sc-nfjs56-0 {
+  font-family: Rubik !important;
+}

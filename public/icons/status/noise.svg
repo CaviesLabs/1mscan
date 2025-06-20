@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 700">
+  <defs>
+    <filter id="a" width="140%" height="140%" x="-20%" y="-20%" color-interpolation-filters="reddit_filled" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse">
+      <feTurbulence width="100%" height="100%" x="0%" y="0%" baseFrequency=".153" numOctaves="4" result="turbulence" seed="15" stitchTiles="stitch" type="fractalNoise"/>
+      <feSpecularLighting width="100%" height="100%" x="0%" y="0%" in="turbulence" lighting-color="#282424FF" result="specularLighting" specularConstant="2.2" specularExponent="20" surfaceScale="13">
+        <feDistantLight azimuth="3" elevation="100"/>
+      </feSpecularLighting>
+    </filter>
+  </defs>
+  <path fill="reddit_filled" d="M0 0h700v700H0z" filter="url(#a)"/>
+</svg>

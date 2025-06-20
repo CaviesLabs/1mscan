@@ -1,0 +1,66 @@
+{
+  "common": {
+    "DEV_FEATURES_URL": ["/code-id-verification"],
+    "MAINTENANCE_MODE": false,
+    "MAINTENANCE_CHAIN_MODE": true,
+    "IPFS_GATEWAY": "https://ipfs.io/ipfs/",
+    "pacific-1": {
+      "POPULAR_PACKAGE_CODE": "I90D",
+      "MULTISENDER_DISPENSER": "0x7B664243A719dCfad19edfCB7D4249cdfbe3e3Dd",
+      "SEND_TOKENS_DISPENSER": "0x9DbaA4943Ae2d9A17AbEe06100fE083d56c66e88"
+    },
+    "promotion": [
+      {
+        "brand": "Pit.Finance",
+        "primary": "Maximizing SEI, iSEI, USDC, USDT yields on Sei Network with advanced strategies",
+        "secondary": " Maximizing your crypto yields",
+        "url": "https://pit.finance",
+        "logo": "/images/logo/pit.svg",
+        "push": "Deposit now!",
+        "ratio": 2
+      },
+      {
+        "brand": "Yei.Finance",
+        "logo": "/images/logo/yei.png",
+        "primary": "Money Market on SEI",
+        "secondary": "Money Market on SEI",
+        "url": "https://yei.finance",
+        "push": "Explore now!",
+        "ratio": 1
+      },
+      {
+        "brand": "Silostaking.io",
+        "logo": "/images/logo/silo.svg",
+        "primary": "a next-generation liquid staking protocol built on Sei",
+        "secondary": "Simple and secure liquid staking on Sei",
+        "url": "https://app.silostaking.io/stake",
+        "push": "Stake now!",
+        "ratio": 1
+      },
+      {
+        "brand": "Dragonswap",
+        "logo": "/images/logo/dragonswap.jpg",
+        "primary": "a decentralized, permissionless AMM DEX on SEI",
+        "secondary": "offers AMM, predictions, and LST support on SEI",
+        "url": "https://dragonswap.app",
+        "push": "Explore now!",
+        "ratio": 1
+      },
+      {
+        "brand": "Jellyverse",
+        "logo": "/images/logo/jelly.png",
+        "primary": "The DeFi 3.0 revolution on SEI",
+        "secondary": "The DeFi 3.0 revolution on SEI",
+        "url": "https://jellyverse.org",
+        "push": "Explore now!",
+        "ratio": 1
+      }
+    ]
+  },
+  "pacific-1": {
+    "WEBSOCKET_HOST": "wss://pacific-1-api.seitrace.com",
+    "API_HOST": "https://pacific-1-api.seitrace.com",
+    "STATS_API": "https://pacific-1-api-stats.seitrace.com",
+    "API_HOST_GATEWAY": "https://pacific-1-gateway.seitrace.com"
+  }
+}

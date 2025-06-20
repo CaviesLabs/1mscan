@@ -1,0 +1,14 @@
+{
+  "pacific-1": {
+    "rpc": "https://rpc.pacific-1.sei.io/",
+    "lcd": "https://rest.pacific-1.sei.io/"
+  },
+  "atlantic-2": {
+    "rpc": "https://rpc-testnet.sei-apis.com/",
+    "lcd": "https://rest-testnet.sei-apis.com/"
+  },
+  "arctic-1": {
+    "rpc": "https://rpc-arctic-1.sei-apis.com/",
+    "lcd": "https://rest-arctic-1.sei-apis.com/"
+  }
+}
